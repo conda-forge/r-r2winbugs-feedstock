@@ -39,13 +39,14 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=R2WinBUGS
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Invoke a 'BUGS' model in 'OpenBUGS' or 'WinBUGS', a class "bugs" for 'BUGS'  results
     and functions to work with that class. Function write.model() allows a 'BUGS' model
     file to be written.   The class and auxiliary functions could be used with other
     MCMC programs, including 'JAGS'.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
