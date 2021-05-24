@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=R2WinBUGS
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-r2winbugs-feedstock/blob/master/LICENSE.txt)
 
 Summary: Invoke a 'BUGS' model in 'OpenBUGS' or 'WinBUGS', a class "bugs" for 'BUGS'  results and functions to work with that class. Function write.model() allows a 'BUGS' model file to be written.   The class and auxiliary functions could be used with other MCMC programs, including 'JAGS'.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-r2winbugs` from the `conda-forge` channel can be achieved by addin
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-r2winbugs` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
