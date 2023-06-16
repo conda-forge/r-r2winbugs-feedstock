@@ -1,11 +1,11 @@
-About r-r2winbugs
-=================
+About r-r2winbugs-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-r2winbugs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=R2WinBUGS
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-r2winbugs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Invoke a 'BUGS' model in 'OpenBUGS' or 'WinBUGS', a class "bugs" for 'BUGS'  results and functions to work with that class. Function write.model() allows a 'BUGS' model file to be written.   The class and auxiliary functions could be used with other MCMC programs, including 'JAGS'.
 
