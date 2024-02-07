@@ -1,4 +1,4 @@
-{% set version = "2.1-22" %}
+{% set version = "2.1-22.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/R2WinBUGS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/R2WinBUGS/R2WinBUGS_{{ version }}.tar.gz
-  sha256: aed74097c7c4552cf139828babf25555a67270925524bdd5856fa7cfd8d18179
+  sha256: 438e6241b96b73cf9adf51b5564fd27a14710256c93aa18e6b7382acc89d38a5
 
 build:
   merge_build_host: true  # [win]
